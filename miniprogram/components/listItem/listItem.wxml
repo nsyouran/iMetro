@@ -1,0 +1,18 @@
+<!--components/listItem/listItem.wxml-->
+<view class="task-item">
+  <view class="task-hd">
+    <view class="border">
+      <view class="txt">{{item.main}}</view>
+    </view>
+  </view>
+  <view class="task-bd">
+    <view class="main">{{item.main}}</view>
+    <view class="secd">{{item.secd}}</view>
+  </view>
+  <view class="task-ft">
+    <text>{{item.date}}</text> 
+    <view class="tips">
+      <icon type="{{item.icon}}"/>
+    </view>
+  </view>    
+</view>

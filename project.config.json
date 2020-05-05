@@ -4,10 +4,24 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
 	},
 	"appid": "wxe8d80836d14253da",
 	"projectname": "iMetro",
@@ -30,13 +44,47 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
+					"id": 0,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/test/test",
+					"pathName": "pages/test/test",
+					"query": "id=f10018335eae9517004d716627ba10ca&title=神经内科",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "addtest",
+					"pathName": "pages/addtest/addtest",
+					"query": "task_id =f10018335eae9517004d716627ba10ca&task_title=神经内科",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "addtask",
+					"pathName": "pages/addtask/addtask",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "task",
+					"pathName": "pages/task/task",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

@@ -1,0 +1,21 @@
+<!--components/listItem/listItem.wxml-->
+<view class="task-item">
+  <view class="task-hd">
+    <view class="border">
+      <view class="txt">{{item.product_name}}</view>
+    </view>
+  </view>
+  <view class="task-bd">
+    <view class="main">{{item.product_name}}</view>
+    <view class="secd">
+      <view class="type">{{item.product_type}}</view>
+      <view class="number">{{item.product_number}}</view>
+    </view>
+  </view>
+  <view class="task-ft">
+    <text>{{item.date}}</text> 
+    <view class="tips">
+      <icon type="{{item.icon}}"/>
+    </view>
+  </view>    
+</view>

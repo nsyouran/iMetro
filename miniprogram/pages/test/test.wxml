@@ -1,0 +1,20 @@
+<!--pages/test/test.wxml-->
+<view class="search">
+	<view class="search-input">
+		<icon type="search" />
+		<input placeholder="搜索"></input>
+	</view>
+	<view class="search-cancel">
+		<view>取消</view>
+	</view>
+</view>
+
+<view class="container">
+	<block wx:for="{{list}}" wx:key="index">
+		<test-item style="width:100%" item="{{item}}" data-id="{{item._id}}" bindtap="_itemtap"></test-item>
+	</block>
+</view>
+
+<view class="addtest" bindtap="_addtest">
+  <image src="/images/addtest.png"></image>
+</view>

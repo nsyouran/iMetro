@@ -1,0 +1,6 @@
+<!--pages/task/task.wxml-->
+<view class="container">
+  <block wx:for="{{list}}" wx:key="index">
+  <task-item style="width:100%" item="{{item}}" data-id="{{item._id}}" data-title="{{item.main}}" bindtap="_itemtap"></task-item>
+  </block>
+</view>

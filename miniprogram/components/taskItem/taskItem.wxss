@@ -1,0 +1,69 @@
+/* components/listItem/listItem.wxss */
+
+.task-item {
+  width: 100%;
+  background-color: white;
+  margin-top: 12rpx;
+  /* border: 1px solid blue; */
+  border-radius: 12rpx;
+  padding: 12rpx 12rpx;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.task-item:active {
+  background-color: #eee;
+}
+
+.task-item view {
+  /* border: 1px solid red */
+}
+
+.task-hd {
+  padding: 10rpx;
+}
+.task-hd .border {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ddd;
+  border-radius: 100rpx;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.task-hd .txt{  
+  text-align: center;
+  line-height: 100rpx;
+  font-weight: bolder;
+  font-size: 48rpx;
+  width: 1em;
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+.task-bd {
+  flex-grow: 1;
+  /* flex-shrink: 1; */
+  width: 300rpx;
+  padding-left: 20rpx;
+}
+
+.task-bd view {
+  overflow: hidden;white-space:nowrap;text-overflow:ellipsis;
+}
+.task-bd .secd {
+  /* border: 1px solid red; */
+  font-size: 30rpx;
+  color: #999;
+}
+
+.task-ft {
+  width: 5em;
+  padding-top: 8rpx;
+  font-size: 30rpx;
+  color: #999;
+  /* border: 1px solid red; */
+  text-align: right;
+}
